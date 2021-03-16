@@ -1,0 +1,1241 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #40514E;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+
+
+
+/* HEADER SECTION */
+
+
+
+
+header {
+    background-color: snow;
+    height: 120px;
+    position: relative;
+    width: 100%;
+}
+
+header img {
+    height: 50%;
+    padding: 20px 0 20px 155px;
+}
+
+.logo-link {
+    margin:0;
+    padding: 0;
+}
+
+.navbar {
+    width: 70%;
+    float: right;
+    height: 120px;
+    padding-right: 90px;
+}
+
+header ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 17px;
+    width: auto;
+}
+
+header li {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+header a {
+    color: deepSkyBlue;
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 30px 5px 0 5px;
+}
+
+.subscribe {
+    background-color: darksalmon;
+    border: 2px solid tomato;
+    border-radius: 100px;
+    color: snow;
+    font-weight: 600;
+    height: 10px;
+    margin-left: 30px;
+}
+
+.subscribe:hover {
+    background-color: lightsalmon;
+
+}
+
+.navbar li a {
+    padding: 5px 10px 5px 10px;
+}
+
+header a:hover {
+    color: gold;
+    transition: 0.5s;
+}
+
+
+
+
+
+/*header .active {
+    color: #ffffff;
+    background-color: #143997;
+}*/
+
+
+
+
+/*  FEATURES SECTION  */
+
+
+
+
+#features-section {
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+}
+
+.features {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 600px;
+}
+
+.features-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 45%;
+    padding-top: 80px;
+}
+
+.features-img img {
+    width: 65%;
+}
+
+.features-desc {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    height: 600px;
+    width: 55%;
+    padding: 90px 0 0 0;
+}
+
+
+
+
+/*  HOW IT WORKS SECTION  */
+
+
+
+
+#how-it-works-section {
+    background-color: mistyRose;
+    height: 100vh;
+    width: 100%;
+}
+
+.how-it-works {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 100vh;
+}
+
+.how-it-works-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 45%;
+    padding: 80px 0 0 0;
+}
+
+.how-it-works-desc h1 {
+    padding-right: 40px;
+}
+
+.how-it-works-desc p {
+    padding-right: 40px;
+}
+
+.how-it-works-vid {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    height: 600px;
+    width: 55%;
+    padding-top: 130px;
+}
+
+#video {
+    position: absolute;
+    left: 0;
+    border: 3px solid snow;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.5);
+    width: 550px; 
+    height: 280px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+
+
+
+/* PRODUCTS SECTION */
+
+
+
+
+#products-section {
+    background-color: lightCyan;
+    height: 100vh;
+    width: 100%;
+}
+
+.products {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 600px;
+}
+
+.products h1 {
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+.products p {
+    margin: 0;
+}
+
+.product-one {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 700px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.product-two {
+    position: absolute;
+    left: 33.3%;
+    top: 0;
+    height: 700px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.product-three {
+    position: absolute;
+    left: 66.6%;
+    top: 0;
+    height: 700px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.products img {
+    margin-top: 175px;
+    width: 80%;
+}
+
+
+
+
+/* SUBSCRIBE SECTION */
+
+
+
+
+#subscribe-section {
+    background-color: darksalmon;
+    height: 95vh;
+    width: 100%;
+}
+
+.subscribe-content {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 600px;
+}
+
+.subscribe-content form {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    width: 100%;
+}
+
+.subscribe-content h1 {
+    color: snow;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+}
+
+h1.heading {
+    margin: 0;
+    padding-top: 100px;
+}
+
+#email {
+    background-color: snow;
+    border: 2px solid tomato;
+    border-radius: 30px;
+    color: silver;
+    font-size: 1.6rem;
+    height: 40px;
+    text-align: center;
+    width: 40%;
+}
+
+#submit {
+    background-color: limegreen;
+    border: 2px solid green;
+    border-radius: 30px;
+    color: snow;
+    cursor: pointer;
+    font-size: 1.6rem;
+    height: 40px;
+    width: 40%;
+}
+
+#submit:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+
+
+
+/* FOOTER SECTION  */
+
+
+
+
+footer {
+    background-color: snow;
+    color: deepskyblue;
+    height: 5vh;
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+
+
+
+/* ---------------------------------------------------------- MEDIA QUERY - MAX WIDTH 1440PX----------------------------------------------------- */
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+    
+    body {
+        font-size: 1.8em;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        font-size: 1.9rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+    }
+
+
+
+    
+    /* HEADER SECTION */
+    
+
+
+    
+    header {
+        height: 80px;
+    }
+    
+    header img {
+        padding: 17px 0 20px 155px;
+    }
+    
+    .navbar {
+        width: 65%;
+        height: 80px;
+    }
+    
+    header ul {
+        margin-right: 0;
+        margin-top: 4px;
+    }
+    
+    header li {
+        padding: 13px 19px;
+    }
+    
+    header a {
+        font-size: 1.6rem;
+    }
+    
+    .subscribe {
+        font-size: 1.3rem;
+        margin-left: 27px;
+    }
+
+
+
+    
+    /*  FEATURES SECTION  */
+    
+
+
+
+    
+    /*  HOW IT WORKS SECTION  */
+    
+
+
+    
+    .how-it-works-desc {
+        padding: 100px 0 0 0;
+    }
+    
+    .how-it-works-vid {
+        padding-top: 130px;
+    }
+
+    
+    
+    
+    /* PRODUCTS SECTION */
+    
+
+    
+    
+    
+    /* SUBSCRIBE SECTION */
+    
+    
+    
+    
+
+    /* FOOTER SECTION  */
+}
+
+
+
+
+/* ---------------------------------------------------------- MEDIA QUERY - MAX WIDTH 1366PX----------------------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 1366px) {
+    body {
+        font-size: 1.6em;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+
+
+    
+    
+
+    /* HEADER SECTION */
+
+
+
+
+    
+    header {
+        height: 80px;
+    }
+    
+    header img {
+        padding: 17px 0 20px 155px;
+    }
+    
+    .navbar {
+        width: 65%;
+        height: 80px;
+    }
+    
+    header ul {
+        margin-right: 0;
+        margin-top: 11px;
+    }
+    
+    header li {
+        padding: 8px 18px;
+    }
+    
+    header a {
+        font-size: 1.5rem;
+    }
+    
+    .subscribe {
+        font-size: 1.3rem;
+        margin-left: 25px;
+    }
+    
+
+
+
+    
+    /*  FEATURES SECTION  */
+
+
+
+
+    
+    .features {
+        height: 600px;
+        }
+    
+    .features-desc {
+        height: 500px;
+    }
+
+
+
+    
+    
+    /*  HOW IT WORKS SECTION  */
+
+
+
+
+    
+    .how-it-works-desc {
+        height: 500px;
+        padding: 90px 0 0 0;
+    }
+    
+    .how-it-works-vid {
+        height: 500px;
+        padding-top: 100px;
+    }
+    
+    #video {
+        width: 520px; 
+        height: 265px;
+    }
+
+
+
+    
+    
+    /* PRODUCTS SECTION */
+    
+    
+
+    
+    
+    /* SUBSCRIBE SECTION */
+
+
+
+
+
+    #email {
+        font-size: 1.5rem;
+        margin-bottom: 7px;
+    }
+    
+    #submit {
+        font-size: 1.5rem;
+    }
+
+
+
+    
+    
+    /* FOOTER SECTION  */
+
+
+
+
+}
+
+
+
+
+
+  /* ---------------------------------------------------------- MEDIA QUERY - MAX WIDTH 1366PX----------------------------------------------------- */
+
+
+
+
+
+  @media only screen and (max-width: 1024px) {
+    
+    body {
+        font-size: 1.6em;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+
+
+
+    
+    
+    /* HEADER SECTION */
+
+
+
+    
+    
+    header img {
+        padding: 17px 0 20px 80px;
+    }
+    
+    .navbar {
+        width: 70%;
+        height: 80px;
+        padding-left: 5px;
+    }
+    
+    header li {
+        padding: 10px 5px;
+    }
+
+
+
+    
+    
+    /*  FEATURES SECTION  */
+
+
+    
+
+    
+    .features-img {
+        padding-top: 140px;
+    }
+
+
+    
+    
+    /*  HOW IT WORKS SECTION  */
+
+
+
+    
+    
+    .how-it-works {
+        margin: auto;
+        position: relative;
+        width: 80%;
+        height: 100vh;
+    }
+    
+    .how-it-works-desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+    
+    .how-it-works-vid {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    #video {
+        width: 550px; 
+        height: 280px;
+        margin: 0;
+    }
+
+    
+    
+    
+    
+    /* PRODUCTS SECTION */
+
+
+
+
+    
+    .products h1 {
+        padding-top: 120px;
+    }
+    
+    .products p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .product-one {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 700px;
+        text-align: center;
+        width: 33.3%;
+    }
+    
+    .product-two {
+        position: absolute;
+        left: 33.3%;
+        top: 0;
+        height: 700px;
+        text-align: center;
+        width: 33.3%;
+    }
+    
+    .product-three {
+        position: absolute;
+        left: 66.6%;
+        top: 0;
+        height: 700px;
+        text-align: center;
+        width: 33.3%;
+    }
+    
+    .products img {
+        margin-top: 175px;
+        width: 80%;
+    }
+
+
+
+    
+    
+    /* SUBSCRIBE SECTION */
+
+
+
+    
+    
+    #subscribe-section {
+        background-color: darksalmon;
+        height: 95vh;
+        width: 100%;
+    }
+    
+    .subscribe-content {
+        margin: auto;
+        position: relative;
+        width: 80%;
+        height: 600px;
+    }
+    
+    .subscribe-content form {
+        position: absolute;
+        text-align: center;
+        top: 250px;
+        width: 100%;
+    }
+    
+    .subscribe-content h1 {
+        color: snow;
+        font-weight: 600;
+        padding: 0;
+        text-align: center;
+    }
+    
+    h1.heading {
+        margin: 0;
+        padding-top: 100px;
+    }
+    
+    #email {
+        background-color: snow;
+        border: 2px solid tomato;
+        border-radius: 30px;
+        color: silver;
+        font-size: 1.6rem;
+        height: 40px;
+        text-align: center;
+        width: 40%;
+    }
+    
+    #submit {
+        background-color: limegreen;
+        border: 2px solid green;
+        border-radius: 30px;
+        color: snow;
+        cursor: pointer;
+        font-size: 1.6rem;
+        height: 40px;
+        width: 40%;
+    }
+    
+    #submit:hover {
+        background-color: green;
+        transition: 0.4s;
+    }
+
+
+
+    
+    
+    /* FOOTER SECTION  */
+
+    
+
+
+    
+
+    footer {
+        background-color: snow;
+        color: deepskyblue;
+        height: 5vh;
+        padding-top: 5px;
+        text-align: center;
+    }
+    
+    footer p{
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    }
+
+
+
+
+
+  /*---------------------------------------- MEDIA QUERY - MAX WIDTH 414PX - iPhone 6/7/8 plus------------------------------------------------- */
+
+
+
+
+
+  @media only screen and (max-width: 454px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+        color: #40514e;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 1.4;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    /* HEADER SECTION */
+
+
+
+
+
+    header {
+        background-color: snow;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    header img {
+        height: 10%;
+        padding: 10px;
+        display: block;
+        margin: auto;
+        padding: 35px 0 50px;
+    }
+
+    .navbar {
+        position: relative;
+        border-top: 4px solid deepskyblue;
+        width: 100%;
+        height: 80vh;
+    }
+
+    header ul {
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header li {
+        border-bottom: 2px solid deepskyblue;
+        display: block;
+        padding: 40px 0;
+    }
+
+    header a {
+        color: deepskyblue;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    header a:hover {
+        color: deepskyblue;
+    }
+
+    .subscribe-btn {
+        background-color: darksalmon;
+        border-top: 2px solid tomato;
+        border-bottom: 2px solid tomato;
+        color: snow;
+        font-weight: 600;
+        padding: 40px 55px;
+        margin-top: 83px;
+    }
+
+    .subscribe {
+        background-color: darksalmon;
+        border: none;
+    }
+
+    .subscribe:hover {
+        background-color: darksalmon;
+    
+    }
+
+
+
+
+
+    /*  FEATURES SECTION  */
+
+
+
+
+
+    #features-section {
+        background-color: beige;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .features {
+        margin: auto;
+        position: relative;
+        width: 90%;
+        height: 100vh;
+    }
+
+    .features-desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50vh;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .features-img {
+        position: absolute;
+        top: 30vh;
+        left: 0;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .features-img img {
+        width: 65%;
+        display: block;
+        margin: auto;
+    }
+
+
+
+
+
+    /*  HOW IT WORKS SECTION  */
+
+
+
+
+
+    #how-it-works-section {
+        background-color: mistyRose;
+        height: 100vh;
+        width: 100%;
+    } 
+
+    .how-it-works {
+        margin: auto;
+        position: relative;
+        width: 90%;
+        height: 100vh;
+    }
+
+    .how-it-works-desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50vh;
+        padding-top: 50px;
+    }
+
+    .how-it-works-vid {
+        position: absolute;
+        top: 50%;
+        height: 50vh;
+    }
+
+    #video {
+        position: absolute;
+        border: 2px solid snow;
+        box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.5);
+        width: 381px; 
+        height: 194px;
+        text-align: center;
+    }
+
+
+
+
+
+    /* PRODUCTS SECTION */
+
+    #products-section {
+        background-color: lightCyan;
+        height: 200vh;
+        width: 100%;
+    }
+    
+    .products {
+        margin: auto;
+        position: relative;
+        width: 90%;
+        height: 100%;
+    }
+    
+    .products h1 {
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    
+    .products p {
+        margin: 0;
+    }
+    
+    .product-one {
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .product-two {
+        position: absolute;
+        left: 0;
+        top: 55vh;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .product-three {
+        position: absolute;
+        left: 0;
+        top: 110vh;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .products img {
+        margin-top: 175px;
+        width: 80%;
+    }
+    
+    
+
+
+   
+
+
+
+
+
+    /* SUBSCRIBE SECTION */
+
+
+
+
+
+    #subscribe-section {
+        background-color: darksalmon;
+        height: 95vh;
+    }
+    
+    .subscribe-content {
+        margin: auto;
+        position: relative;
+        width: 90%;
+        height: 100%;
+    }
+    
+    .subscribe-content form {
+        position: absolute;
+        text-align: center;
+        top: 350px;
+        width: 100%;
+    }
+    
+    .subscribe-content h1 {
+        color: snow;
+        font-weight: 600;
+        padding: 0;
+        text-align: center;
+    }
+    
+    h1.heading {
+        margin: 0;
+        padding-top: 200px;
+    }
+    
+    #email {
+        background-color: snow;
+        border: 2px solid tomato;
+        border-radius: 30px;
+        color: silver;
+        font-size: 1.2rem;
+        height: 30px;
+        margin-bottom: 3px;
+        text-align: center;
+        width: 70%;
+    }
+    
+    #submit {
+        background-color: limegreen;
+        border: 2px solid green;
+        border-radius: 30px;
+        color: snow;
+        cursor: pointer;
+        font-size: 1.2rem;
+        height: 30px;
+        width: 70%;
+    }
+    
+    #submit:hover {
+        background-color: green;
+        transition: 0.4s;
+    }
+
+
+
+
+
+    /* FOOTER SECTION  */
+
+
+
+
+    
+    footer {
+        background-color: snow;
+        color: deepskyblue;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    footer p {
+        font-size: 0.9rem;
+        margin-top: 6px;
+    }
+}
+
+
+    
